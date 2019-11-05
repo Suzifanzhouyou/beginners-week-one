@@ -1,0 +1,56 @@
+h1{
+  font-family："arial";
+  color:rgb(234,167,0);
+}
+/* 2.正文和标题的字体颜色，大小，类别在文章前定义 别忘记大括号有些像latex */
+/* the style comand is not show in the css file */
+div {
+  min-height: 200vh;
+  width: 80vw
+}
+/* div not <div> */
+h1, h2, p, ol {
+  text-align: center;
+}
+h1 {
+  font-size: 13em;
+}
+h2 {
+  font-size: 2.5em;
+}
+img {
+  display: flex;
+  margin:0 auto;
+  margin-bottom: auto;
+  padding:20px;
+  border-radius: 500px;
+  height: 500px;
+}
+
+ol {
+  list-style: lower-alpha;
+}
+
+h1#title {
+  color: blue;
+}
+
+ div.foo {
+  background-image: "应县木塔模型.jpg";
+}
+
+li {
+  margin: 0 20px;
+  padding: 20px;
+  transition: 0.6s ease;
+}
+
+li:hover {
+  font-size: 1.8em;
+  transition: 0.6s ease;
+}
+
+ul {
+  list-style: none;
+  disply: flex;
+}
